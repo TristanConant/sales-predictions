@@ -5,36 +5,34 @@
 
 ### Business problem:
 
-Here is where you state the business problem you were trying to solve
+Retailers want to better understand product properties and outlet details and how they relate to sales trends. 
 
 
 ### Data:
-Data can include source and high-level description (e.g. # obs)
+[Food sales data](https://docs.google.com/spreadsheets/d/e/2PACX-1vQcO5VAKyttMX8k6NqLE5Q5wHBt1ZVvuQ-Emy8aAvUOlbLrt_dcvqbBnGLtI3fDP_gAgdlmlfed1c3i/pub?gid=883441261&single=true&output=csv)
 
 
 ## Methods
-- Data preparation steps with explanation and justification for choices
-- 
+- Duplicate rows are dropped.
+- Missing numerical data has been filled using the mean imputer while ordinal and categorical values have the most frewuent imputer applied to them.
+- Inconsistencies in object columns have been statndardized without dropping columns across the dataset.
 
-## Results
+#### Sales by outlet type
+![Sales by outlet type](sales_outlet_type.jpg)
 
-### Here are examples of how to embed images from your sub-folder
+> Vizualization clearly shows one supermarket type substantially outsells the rest.
 
+#### Sales by percentage of space used for product display
 
-#### Visual 1 Title
-![sample image](project1_sample_image.png)
+![Sales by display space](sales_by_display_space.jpg)
 
-> Sentence about visualization.
-
-#### Visual 2 Title
+> Surprisingly the data shows that products with the most display space had some of the lowest sales.
 
 ## Model
 
-Describe your final model
+At this point metrics for linear regression and decision tree model show that both models are underfitting.
 
-Report the most important metrics
-
-Refer to the metrics to describe how well the model would solve the business problem
+![metrics](metrics.jpg)
 
 ## Recommendations:
 
@@ -43,10 +41,7 @@ More of your own text here
 
 ## Limitations & Next Steps
 
-More of your own text here
+Further models will need to be applied to get the best results.
 
 
-### For further information
 
-
-For any additional questions, please contact **email**
