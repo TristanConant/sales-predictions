@@ -36,12 +36,12 @@ At this point metrics for linear regression and decision tree model show that bo
 
 ## Recommendations:
 
-More of your own text here
+Based on the data my recommendation is to limit efforts put into product displays. If store expansion is the objective, I would recommend prioritizing Type 2 supermarkets.
 
 
 ## Limitations & Next Steps
+I think the dataset could be expanded to include other features that might help identify shopping trends. Other models will be required for best results.
 
-Further models will need to be applied to get the best results.
-
-
+## Contact Information
+Email: <me@tristanconant.com>
 
